@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #141414;
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  position: relative;
+}
+
+.subtitulo {
+  font-family: "Staatliches", cursive;
+  font-size: 4.5rem;
+  line-height: 1.125;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    max-width: initial;
+  }
+}
